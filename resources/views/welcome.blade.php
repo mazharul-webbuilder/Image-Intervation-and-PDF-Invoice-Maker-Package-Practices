@@ -32,7 +32,7 @@
                         <input type="file" name="galleryImages[]" multiple class="border-2 " value="">
                     </div>
                     <div class="mt-4 flex flex-col w-9/12">
-                        <input type="submit" class="p-2 bg-lime-600 text-white rounded-r" value="Create">
+                        <input type="submit" class="p-2 bg-lime-600 text-white rounded-r" value="Submit">
                     </div>
                 </div>
             </form>
