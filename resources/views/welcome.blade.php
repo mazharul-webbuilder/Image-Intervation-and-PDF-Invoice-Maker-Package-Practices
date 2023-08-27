@@ -12,7 +12,7 @@
             <h3 class="text-center font-bold text-3xl text-red-700 underline">Image Intervention</h3>
         </div>
         <div class="p-3 pt-10 w-9/12  mx-auto mt-2 flex flex-col">
-            <form action="" method="post" enctype="multipart/form-data">
+            <form action="" class="mx-auto" method="post" enctype="multipart/form-data">
                 @csrf
                 <div class="mx-auto">
                     <div class="mt-4 flex flex-col w-9/12">
@@ -25,7 +25,7 @@
                     </div>
                     <div class="mt-4 flex flex-col w-9/12">
                         <label for="thumb" class="font-bold">Thumbnail Image</label>
-                        <input type="file" name="image" multiple class="border-2 " value="">
+                        <input type="file" id="thumbImage" name="image" multiple class="border-2 " value="">
                     </div>
                     <div class="mt-4 flex flex-col w-9/12">
                         <label for="thumb" class="font-bold">Gallery Images</label>
@@ -39,5 +39,12 @@
         </div>
     </div>
 </div>
+<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function(){
+
+    })
+
+</script>
 </body>
 </html>
