@@ -25,3 +25,8 @@ Route::get('/', function (Request $request){
 ////laravel live-wire package
 //Route::get('/counter', Counter::class);
 
+
+/*Laravel two package for working with Invoice*/
+Route::get('/invoice-laravel-invoice', [LaravelInvoiceController::class, 'laravelInvoice'])->name('laravel.invoice');
+Route::get('/invoice-dompdf', [DomPdfController::class, 'domPdf'])->name('dompdf');
+
