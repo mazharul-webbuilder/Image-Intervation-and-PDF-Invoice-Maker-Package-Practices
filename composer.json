@@ -12,7 +12,7 @@
         "dompdf/dompdf": "^2.0",
         "filament/filament": "3.0-stable",
         "guzzlehttp/guzzle": "^7.2",
-        "intervention/image": "^2.7",
+        "intervention/image": "^2.6",
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.2",
         "laravel/telescope": "^4.16",

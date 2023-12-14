@@ -6,6 +6,11 @@ use Illuminate\Http\Request;
 use Intervention\Image\Facades\Image;
 use App\Http\Controllers\LaravelInvoiceController;
 use App\Http\Controllers\DomPdfController;
+use App\Http\Controllers\ImageInterventionController;
+
+// Image Intervention
+Route::get('/', [ImageInterventionController::class, 'index']);
+
 
 //
 //Route::get('/', function (Request $request){
