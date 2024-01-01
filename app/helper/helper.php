@@ -37,7 +37,7 @@ if($request->hasFile('image')){
     }
     $original_image_path = public_path().'/uploads/gallery/original/'.$image_name;
     $resize_image_path = public_path().'/uploads/gallery/resize/'.$image_name;
-//Resize Image
+ //Resize Image
     Image::make($image)->save($original_image_path);
     Image::make($image)->resize(500,300)->save($resize_image_path);
     $gallery->image = $image_name;
