@@ -32,6 +32,7 @@ Route::get('/', [ImageInterventionController::class, 'index']);
 
 
 /*Laravel two package for working with Invoice*/
+
 //Route::get('/invoice-laravel-invoice', [LaravelInvoiceController::class, 'laravelInvoice'])->name('laravel.invoice');
 //Route::get('/invoice-dompdf', [DomPdfController::class, 'domPdf'])->name('dompdf');
 
